@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1eT-rW-DvV" customClass="CSHeader">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dr0-iX-deB">
+                        <rect key="frame" x="-8" y="-8" width="352" height="278"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="dr0-iX-deB" firstAttribute="leading" secondItem="1eT-rW-DvV" secondAttribute="leading" constant="-8" id="KnG-qu-1ST"/>
+                <constraint firstAttribute="trailing" secondItem="dr0-iX-deB" secondAttribute="trailing" constant="-8" id="XAS-3G-aSh"/>
+                <constraint firstAttribute="bottom" secondItem="dr0-iX-deB" secondAttribute="bottom" id="XWr-Fb-7wx"/>
+                <constraint firstItem="dr0-iX-deB" firstAttribute="top" secondItem="1eT-rW-DvV" secondAttribute="top" constant="-8" id="noL-U4-4Vc"/>
+            </constraints>
+            <size key="customSize" width="336" height="221"/>
+            <connections>
+                <outlet property="image" destination="dr0-iX-deB" id="ikH-Gf-9xE"/>
+            </connections>
+            <point key="canvasLocation" x="383" y="687"/>
+        </collectionViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
